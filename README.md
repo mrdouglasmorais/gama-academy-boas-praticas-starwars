@@ -20,6 +20,6 @@ Para iniciar em modo de desenvolvimento:
 
 Para instalar o node [clique aqui](https://nodejs.org/en/)
 
-Veja o preojeto online [clique aqui](https://nosso.site)
+Veja o projeto online [clique aqui](https://nosso.site)
 
 ## Professor Douglas Morais
