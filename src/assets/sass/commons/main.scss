@@ -1,0 +1,86 @@
+$backGroundBlack: #000;
+$fontColorWhite: #fff;
+$fontFamilyDefault: 'Roboto', sans-serif;
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background: $backGroundBlack;
+  color: $fontColorWhite;
+}
+
+h1, h2, h3, h4, h5, p, b, span{
+  font-family: $fontFamilyDefault;
+}
+
+.container{
+  width: 75%;
+  margin: 0 auto;
+}
+
+.block-section{
+  display: block;
+}
+
+.main-left{
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+
+  & img{
+    width: 120px;
+    height: auto;
+    transition: 0.3s;
+
+      &:hover{
+          transform: scale(1.2)
+      }
+  }
+}
+
+.footer-contain{
+  margin-top: calc(10px - 160px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: $fontFamilyDefault;
+  & img{
+    height: 190px;
+    width: auto;
+    transition: 0.3s;
+
+      &:hover{
+          transform: scale(1.2)
+      }
+  }
+}
+
+.error-default{
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+
+  & h1, h2, h3, h4, h5, p{
+    text-transform: uppercase;
+  }
+
+  & img{
+    height: 190px;
+    width: auto;
+    transition: 0.3s;
+
+      &:hover{
+          transform: scale(1.2)
+      }
+  }
+}
